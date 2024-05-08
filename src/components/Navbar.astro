@@ -1,0 +1,70 @@
+<header class="header-container">
+    <div class="first-section">
+        <img src="https://images.psmcdn.net/slm/tour/sislovesme.svg"/>
+        <nav>
+            <a>Movies</a>
+            <a>Models</a>
+        </nav>
+    </div>
+
+    <div class="second-section">
+        <a>LOG IN</a>
+        <a>JOIN NOW</a>
+    </div>
+</header>
+
+<style>
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        height: 77px;
+        background-color: #be0028;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .first-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .first-section img {
+        padding: 10px;
+        max-width: 200px;
+    }
+
+    .first-section nav {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .first-section nav a {
+        color: #FFF;
+        padding: 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .first-section nav a:hover {
+        color: #fbf664;
+    }
+
+    .second-section {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .second-section a {
+        color: #FFF;
+    }
+
+    .second-section a:last-child {
+        color: #6dfe0a;
+        font-weight: bold;
+    }
+</style>
